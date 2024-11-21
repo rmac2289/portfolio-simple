@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    rel="stylesheet"
+  />
+
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">01. About</a></li>
+        <li><a href="#experience">02. Experience</a></li>
+        <li><a href="#work">03. Work</a></li>
+        <li><a href="#contact">04. Contact</a></li>
+        <li><a href="#resume" id="button-outline">Resume</a></li>
+      </ul>
+    </nav>
+    <div class="intro-section">
+      <p id="welcome">Glad you're here!</p>
+      <h1>I'm Ross MacDonald.</h1>
+      <h2>I solve problems with code.</h2>
+      <p class="description">
+        I'm a software engineer who takes pride in my ability to leverage existing resources—technical and otherwise—to overcome challenges and drive results. Currently, I'm focused on building highly functional, customer-centered products to help local restaurants thrive at <a target="_blank" href="https://get.chownow.com">ChowNow</a>.
+      </p>
+      <a href="#work" class="button">Check out my work!</a>
+    </div>
+    <div class="section" id="about">
+        <h2>About me</h2>
+        <p class="body">
+            R. S. MacDonald is a skilled software engineer with a strong background in full-stack development. With expertise in building robust and scalable applications, R. S. thrives on leveraging available resources, technical tools, and collaboration to solve complex challenges. From web development to cloud technologies, R. S. is experienced in using modern frameworks and development practices, such as React, Node.js, and cloud platforms like AWS, to deliver high-quality, user-focused solutions. With a passion for continuous learning and innovation, R. S. is committed to creating software that makes a meaningful impact.
+        </p>
+    </div>
+    <div class="section" id="experience">
+        <h2>Experience</h2>
+        <ul class="experience-list">
+            <li class="job-item">
+              <h3>Backend Engineer II</h3>
+              <p><strong>ChowNow</strong> | Los Angeles, CA | <em>2023 - Present</em></p>
+              <ul class="responsibilities">
+                <li>Led integration of third party data service for restaurant analytics and reporting, developing configuration and streamlining the Software Development Life Cycle to enhance data-driven decision-making and operational efficiency for restaurant partners.</li>
+                <li>Collaborated with engineers from a newly acquired company to integrate our software, providing one-on-one guidance throughout the process. Developed Single Sign-On (SSO) for integrated web services, streamlining user access and enhancing security.</li>
+                <li>Developed and implemented APIs for passwordless authentication, enabling customers to securely login via OTP using Twilio Verify service. To date, over 1m users have a verified phone number or email address, significantly enhancing user experience and security.</li>
+                <li>Drove a major refactoring project to deprecate and remove 36k+  lines of legacy menu code from a monolithic codebase, significantly reducing technical debt.</li>
+                <li>Revamped unit test suite by implementing mocks for all menu functionalities, significantly boosting test reliability and maintainability, resulting in faster, more robust testing cycles.</li>
+                <li>Planned and implemented effort to leverage our payment processor’s APIs to send out notification emails when account statuses changed, allowing restaurant partners and customer service to be more proactive in keeping accounts in a desired state.</li>
+              </ul>
+            </li>
+            <li class="job-item">
+              <h3>Software QA Engineer I & II</h3>
+              <p><strong>ChowNow</strong> | Los Angeles, CA | <em>2022 - 2023</em></p>
+              <ul class="responsibilities">
+                <li>Performed manual and automated testing on mobile and web applications, including leading the testing effort on our integration with Uber and the introduction of our multi-provider delivery feature.</li>
+                <li>Proactively communicated with members of the organization both in and outside of engineering to solve ongoing issues and enhance the end-user experience.</li>
+                <li>Wrote automated tests within our Python/Selenium testing framework. </li>
+              </ul>
+            </li>
+            <li class="job-item">
+                <h3>Software QA Engineer</h3>
+                <p><strong>Axos Bank</strong> | San Diego, CA | <em>2021 - 2022</em></p>
+                <ul class="responsibilities">
+                  <li>Developed an internal API using node.js, Elasticsearch & Kibana to export and visualize test results, improving accessibility and insights into test performance.</li>
+                  <li>Led team meetings with off-shore staff to enhance coverage and maintainability in our test automation suite</li>
+                </ul>
+            </li>
+            <li class="technical-skills">
+                <h3>Technical Skills</h3>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML & CSS</li>
+                    <li>React</li>
+                    <li>Django</li>
+                    <li>SQL</li>
+                    <li>Redis</li>
+                    <li>AWS</li>
+                    <li>Docker</li>
+                    <li>DataDog</li>
+                    <li>Sentry</li>
+                    <li>LaunchDarkly</li>
+                    <li>GitHub</li>
+                    <li>Snowflake</li>
+                </ul>
+            </li>
+          </ul>
+    </div>
+    <div class="section" id="work">
+        <h2>Work</h2>
+        <ul class="project-list">
+            <li class="project-item">
+                <h3>Overtime Tracker</h3>
+                <p class="project-description">
+                    Brief description of the project. Mention key achievements, technologies used, or notable features.
+                </p>
+                <a href="https://example-link-to-project.com" target="_blank" class="project-link">View Project</a>
+            </li>
+            <li class="project-item">
+                <h3>Safety Blanket</h3>
+                <p class="project-description">
+                    Brief description of the project. Mention key achievements, technologies used, or notable features.
+                </p>
+                <a href="https://example-link-to-project.com" target="_blank" class="project-link">View Project</a>
+            </li>
+            <li class="project-item">
+                <h3>Find Your Park</h3>
+                <p class="project-description">
+                    Brief description of the project. Mention key achievements, technologies used, or notable features.
+                </p>
+                <a href="https://example-link-to-project.com" target="_blank" class="project-link">View Project</a>
+            </li>
+            <!-- Add more project items as needed -->
+        </ul>
+    </div>
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/rsmacdonald" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/rmacdonaldcn" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            
+            <button type="submit" class="button">Send Message</button>
+        </form>
+    </div>
+  </header>
+</body>
+<script src="scripts.js"></script>
+</html>
