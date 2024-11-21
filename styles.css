@@ -356,6 +356,10 @@ body {
   margin: 0 auto;
 }
 
+#disclaimer {
+  color: var(--text-color);
+}
+
 .project-item a {
   background-color: var(--bg-color);
   color: var(--text-color);
