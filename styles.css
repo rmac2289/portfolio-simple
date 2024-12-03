@@ -49,10 +49,16 @@ body {
 
 /* Navbar */
 .navbar {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1.5rem 2rem;
-  border-bottom: 2px solid var(--muted-color); /* Soft border for navbar */
+  display: none;
+}
+
+@media screen and (min-width: 820px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid var(--muted-color); /* Soft border for navbar */
+  }
 }
 
 .navbar ul {
